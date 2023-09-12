@@ -15,7 +15,7 @@ export default function App() {
     const options = {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': '8219ae23bamshd854977dd4d35edp1f8621jsn448e31ae1f6d',
+        'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API,
         'X-RapidAPI-Host': 'quotes15.p.rapidapi.com'
     }
   };
